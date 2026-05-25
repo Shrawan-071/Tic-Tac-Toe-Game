@@ -9,7 +9,7 @@ function refresh() {
 
 let boxes = document.querySelectorAll(".box");
 let mark = "X";
-let count ="0";
+let count =0;
 let winCondtions = [
   [0,1,2],
   [3,4,5],
