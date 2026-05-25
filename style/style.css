@@ -1,0 +1,90 @@
+h1{
+  color: aqua;
+  background-color: black;
+ margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+    animation-name: h1animation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards; /*stays at the secord condition*/
+}
+#heading_border{
+  border: solid aqua 5px;
+    margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 5%;
+  animation-name: h1animation;
+  animation-duration: 4s;
+  /* animation-fill-mode: forwards; stays at the secord condition */
+  animation-iteration-count: infinite;
+}
+
+@keyframes h1animation {
+  from {
+    background-color: black;
+  border-color: aqua;
+  font-size: 23px;
+  color: aqua;
+
+}
+  to {
+    background-color: aqua;
+  border-color: black;
+  font-size: 25px;
+  color: black;
+}
+
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 100px;
+  border-width: 5px;
+  box-shadow: 0px 0px 0px 1px black ;
+  margin: 5px 5px 5px 5px;
+  background-color: aqua;
+}
+main{
+   text-align: center;
+}
+
+.boxes{
+align-items: center;
+align-content: center;
+margin-left: 38%;
+}
+
+button:disabled {
+  opacity: 1;            /* prevent fading */
+  color: inherit;        /* keep original text color */
+  background-color: aqua; /* keep original background */
+  cursor: not-allowed;   /* optional: still show it’s not clickable */
+}
+
+
+body {
+  background-color: white;
+  background-image: url(image.jpg);
+}
+
+.Reset {
+  font-size: 25px;
+    height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 5%;
+  background-color: aqua;
+}
+
+#announcement{
+ font-size: 40px;
+ margin-left: 40%;
+ color: aqua;
+ border: 5px;
+}
